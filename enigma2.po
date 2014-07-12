@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-07 12:51+0100\n"
-"PO-Revision-Date: 2014-07-12 21:38+0200\n"
+"PO-Revision-Date: 2014-07-12 22:43+0200\n"
 "Last-Translator: bodyan <bodyanua@gmail.com>\n"
 "Language-Team: http://sat-ukraine.info/ <bodyan_ua@hotmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -276,7 +276,8 @@ msgstr ""
 #, python-format
 msgid "%(num)d hour"
 msgid_plural "%(num)d hours"
-msgstr[0] ""
+msgstr[0] "%(num)d годину"
+msgstr[1] "%(num)d годин"
 
 #: ../enigma2-rel3.2/lib/python/Components/NimManager.py:1311
 #: ../enigma2-rel3.2/lib/python/Components/NimManager.py:1312
@@ -402,7 +403,7 @@ msgstr "%s (ТБ & Радіо)"
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/SystemPlugins/MiniDLNASetup/plugin.py:63
 #, python-format
 msgid "%s started successfully with the new configuration"
-msgstr ""
+msgstr "%s успішно запущений з новою конфігурацією"
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/SystemPlugins/MiniDLNASetup/plugin.py:65
 #, python-format
@@ -418,7 +419,7 @@ msgstr ""
 #: ../enigma2_plugins/autotimer/src/AutoPoller.py:51
 #, python-format
 msgid "%s: %s at %s"
-msgstr ""
+msgstr "%s: %s на %s"
 
 #: ../enigma2-rel3.2/lib/python/Components/TimerList.py:37
 #: ../enigma2-rel3.2/lib/python/Components/TimerList.py:39
@@ -902,7 +903,7 @@ msgstr "Aудіо/Відео"
 #: ../enigma2-rel3.2/lib/python/Components/NimManager.py:1180
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Components/NimManager.py:1179
 msgid "AA"
-msgstr "AA"
+msgstr "Порт А"
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/Extensions/BludiscPlayer/plugin.py:14
 msgid "AACS certificate revoked"
@@ -915,7 +916,7 @@ msgstr ""
 #: ../enigma2-rel3.2/lib/python/Components/NimManager.py:1180
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Components/NimManager.py:1179
 msgid "AB"
-msgstr "AB"
+msgstr "Порт B"
 
 #: ../enigma2-rel3.2/lib/python/Plugins/SystemPlugins/Videomode/plugin.py:98
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/SystemPlugins/Videomode/plugin.py:94
@@ -1065,7 +1066,7 @@ msgstr "Додати"
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/Extensions/Browser/BrowserMenu.py:573
 #, python-format
 msgid "Add '%s' to Bookmarks"
-msgstr ""
+msgstr "Додати '%s' в Закладки"
 
 #: ../enigma2-rel3.2/lib/python/Screens/LocationBox.py:200
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Screens/LocationBox.py:200
@@ -1209,7 +1210,7 @@ msgstr "Налаштуйте параметри кольору так щоб в�
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Screens/HarddiskSetup.py:1118
 msgid "Adopt current configuration."
-msgstr ""
+msgstr "Прийняти поточну конфігурацію."
 
 #: ../meta_plugins/plugin_porncenter.xml
 msgid "Adult streaming plugin"
@@ -1852,7 +1853,7 @@ msgstr "B"
 #: ../enigma2-rel3.2/lib/python/Components/NimManager.py:1180
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Components/NimManager.py:1179
 msgid "BA"
-msgstr "BA"
+msgstr "Порт C"
 
 #: ../meta_skins/skin_basic-hd.xml
 msgid "BASIC-HD Skin by Ismail Demir"
@@ -1860,12 +1861,12 @@ msgstr "BASIC-HD Скін від Ісмаїла Деміра"
 
 #: ../meta_skins/skin_basic-hd.xml
 msgid "BASIC-HD Skin for Dreambox Images created from Ismail Demir"
-msgstr ""
+msgstr "BASIC-HD Скін для іміджів Dreambox створив Ismail Demir"
 
 #: ../enigma2-rel3.2/lib/python/Components/NimManager.py:1180
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Components/NimManager.py:1179
 msgid "BB"
-msgstr "BB"
+msgstr "Порт D"
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/Extensions/DVDBurn/TitleList.py:366
 msgid "BDMV Bludisc (HDTV titles only)"
@@ -2031,7 +2032,7 @@ msgstr "Дія коли фільм доходить до кінця"
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/Extensions/Browser/Browser.py:42
 msgid "Bing"
-msgstr ""
+msgstr "Bing"
 
 #: ../enigma2-rel3.2/lib/python/Plugins/SystemPlugins/NetworkWizard/NetworkWizard.py:322
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/SystemPlugins/NetworkWizard/NetworkWizard.py:338
@@ -2052,7 +2053,7 @@ msgstr "Сліпий пошук"
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Screens/ScanSetup.py:700
 #, python-format
 msgid "Blindscan is not supported by this tuner (%s)"
-msgstr ""
+msgstr "Сліпий пошук не підтримується на цьому тюнері (%s)"
 
 #: ../enigma2-rel3.2/lib/python/Plugins/SystemPlugins/VideoEnhancement/plugin.py:101
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/SystemPlugins/VideoEnhancement/plugin.py:101
@@ -2083,12 +2084,12 @@ msgstr "Bonjour/Avahi плагін керування."
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/Extensions/Browser/BrowserMenu.py:558
 #, python-format
 msgid "Bookmark '%s' deleted!"
-msgstr ""
+msgstr "Закладка '%s' видалена!"
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/Extensions/Browser/BrowserMenu.py:545
 #, python-format
 msgid "Bookmark '%s' saved succesfully!"
-msgstr ""
+msgstr "Закладка '%s' успішно збережена!"
 
 #: ../enigma2-rel3.2/lib/python/Screens/LocationBox.py:71
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Screens/LocationBox.py:71
@@ -2101,12 +2102,14 @@ msgid "Bouquets"
 msgstr "Пакети"
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/SystemPlugins/UPnP/DreamboxServiceStore.py:81
+#, fuzzy
 msgid "Bouquets (Radio)"
-msgstr ""
+msgstr "Пакети (Радіо)"
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/SystemPlugins/UPnP/DreamboxServiceStore.py:69
+#, fuzzy
 msgid "Bouquets (TV)"
-msgstr ""
+msgstr "Пакети (ТБ)"
 
 #: ../enigma2_plugins/mytube/src/plugin.py:86
 msgid "Brazil"
@@ -2114,7 +2117,7 @@ msgstr "Бразилія"
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Components/Language.py:20
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "Бразильська Португальська"
 
 #: ../enigma2-rel3.2/lib/python/Plugins/SystemPlugins/VideoEnhancement/plugin.py:92
 #: ../enigma2-rel3.2/lib/python/Plugins/SystemPlugins/VideoTune/VideoFinetune.py:85
@@ -2658,7 +2661,7 @@ msgstr "Майстер Очищення"
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/Extensions/Browser/BrowserMenu.py:368
 msgid "Clear"
-msgstr ""
+msgstr "Очистити"
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/Extensions/Browser/BrowserMenu.py:622
 msgid "Clear History?"
@@ -2963,7 +2966,6 @@ msgid "Configure your recording paths."
 msgstr "Налаштування шляхів запису."
 
 #: ../enigma2_3.999git20140219/usr/share/enigma2/menu.xml
-#, fuzzy
 msgid "Configure your tuners."
 msgstr "Налаштування Вашого тюнера."
 
@@ -4127,7 +4129,6 @@ msgstr "Ви дійсно бажаєте оновити Dreambox?"
 
 #: ../enigma2-rel3.2/lib/python/Plugins/SystemPlugins/OldSoftwareUpdate/plugin.py:37
 #: ../enigma2-rel3.2/lib/python/Plugins/SystemPlugins/OldSoftwareUpdate/plugin.py:136
-#, fuzzy
 msgid ""
 "Do you want to update your Dreambox?\n"
 "After pressing OK, please wait!"
@@ -4147,7 +4148,7 @@ msgstr "Ви хочете переглянути інструкцію?"
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Screens/NotificationQueueViewer.py:67
 msgid "Domain"
-msgstr ""
+msgstr "Домен"
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/Extensions/DVDBurn/TitleList.py:369
 msgid "Don't add this recording"
@@ -4429,13 +4430,11 @@ msgid "Edit tags of recorded movies."
 msgstr "Редагувати теги записаних фільмів."
 
 #: ../enigma2-rel3.2/lib/python/Plugins/SystemPlugins/NetworkSetup/NetworkSetup.py:803
-#, fuzzy
 msgid "Edit the Nameserver configuration of your Dreambox.\n"
 msgstr "Редагувати налаштування Nameserver вашого Dreambox.\n"
 
 #: ../enigma2-rel3.2/lib/python/Plugins/SystemPlugins/NetworkSetup/NetworkSetup.py:799
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/SystemPlugins/NetworkSetup/NetworkSetup.py:730
-#, fuzzy
 msgid "Edit the network configuration of your Dreambox.\n"
 msgstr "Редагувати налаштування мережі Dreambox.\n"
 
@@ -4480,7 +4479,6 @@ msgid "Elapsed / duration"
 msgstr "Пройшло / тривалість"
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Components/UsageConfig.py:143
-#, fuzzy
 msgid "Elapsed / remain / duration"
 msgstr "Залиш./ пройшло / тривалість"
 
@@ -4530,7 +4528,6 @@ msgid "Enable 5V for active antenna"
 msgstr "Подати 5V для активної антени"
 
 #: ../enigma2_plugins/autoresolution/src/plugin.py:27
-#, fuzzy
 msgid "Enable 720p24 Mode"
 msgstr "Ввімкнути 720p24 режим"
 
@@ -5311,7 +5308,7 @@ msgstr "Від: %s\n"
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Components/Harddisk.py:754
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Components/Harddisk.py:755
 msgid "Front USB"
-msgstr ""
+msgstr "Передній USB"
 
 #: ../meta_master/plugin_socketmmi.xml ../meta_masterEXP/plugin_socketmmi.xml
 msgid "Frontend for /tmp/mmi.socket"
@@ -5596,7 +5593,7 @@ msgstr "HbbTV Програми"
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/Extensions/HbbTV/plugin.py:41
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/Extensions/HbbTV/plugin.py:45
 msgid "HbbTV Browser"
-msgstr ""
+msgstr "HbbTV Браузер"
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/Extensions/HbbTV/HbbTVSetup.py:68
 msgid "HbbTV Setup"
@@ -5608,7 +5605,7 @@ msgstr ""
 
 #: ../meta_masterEXP/plugin_hbbtv.xml
 msgid "HbbTV for your Dreambox"
-msgstr ""
+msgstr "HbbTV для вашого Dreambox"
 
 #: ../meta_masterEXP/plugin_hbbtv.xml
 msgid "HbbTV for your Dreambox. This plugin is still a work in progress!"
@@ -5620,7 +5617,7 @@ msgstr "HbbTV функціональність"
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Components/Language.py:30
 msgid "Hebrew"
-msgstr ""
+msgstr "Іврит"
 
 #: ../enigma2_plugins/mytube/src/plugin.py:467
 msgid "Hello"
@@ -6642,7 +6639,7 @@ msgstr ""
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Components/Harddisk.py:772
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Components/Harddisk.py:784
 msgid "Lower USB"
-msgstr ""
+msgstr "Нижній USB"
 
 #: ../enigma2_plugins/autotimer/src/AutoTimerEditor.py:533
 msgid "Lower bound of timespan."
@@ -6748,7 +6745,7 @@ msgstr "Ручний пошук"
 #: ../enigma2-rel3.2/lib/python/Plugins/SystemPlugins/NetworkWizard/networkwizard.xml
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/SystemPlugins/NetworkWizard/networkwizard.xml
 msgid "Manual configuration"
-msgstr ""
+msgstr "Ручна настройка"
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/SystemPlugins/NetworkSetup/NetworkSetup.py:385
 msgid "Manual name server configuration (DNS)"
@@ -7094,7 +7091,7 @@ msgstr ""
 #: ../enigma2-rel3.2/lib/python/Screens/HarddiskSetup.py:240
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Screens/HarddiskSetup.py:277
 msgid "Mountpoint:"
-msgstr ""
+msgstr "Точка підключення:"
 
 #: ../enigma2_plugins/networkbrowser/src/MountManager.py:74
 msgid "Mountpoints management"
@@ -8082,8 +8079,9 @@ msgid "Not fetching feed entries"
 msgstr "Не вибрані дані канали"
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Screens/HarddiskSetup.py:584
+#, fuzzy
 msgid "Not mounted!"
-msgstr ""
+msgstr "Не  з'єднано:"
 
 #: ../enigma2-rel3.2/lib/python/Plugins/SystemPlugins/WirelessLan/plugin.py:128
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/SystemPlugins/WirelessLan/plugin.py:127
@@ -8234,7 +8232,7 @@ msgstr "ОК, видалити деякі компоненти"
 #: ../enigma2-rel3.2/lib/python/Screens/ServiceInfo.py:163
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Screens/ServiceInfo.py:163
 msgid "ONID"
-msgstr ""
+msgstr "ONID:"
 
 #: ../enigma2-rel3.2/data/setup.xml ../enigma2-rel3.2/data/skin_default.xml
 #: ../enigma2_3.999git20140219/usr/share/enigma2/setup.xml
@@ -8517,7 +8515,7 @@ msgstr "Тип батьківського контролю"
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Screens/HarddiskSetup.py:214
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Screens/HarddiskSetup.py:1478
 msgid "Partition"
-msgstr ""
+msgstr "Розділ(и)"
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Screens/HarddiskSetup.py:1504
 msgid "Partition capacity"
@@ -8529,7 +8527,7 @@ msgstr ""
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Screens/HarddiskSetup.py:1441
 msgid "Partitions"
-msgstr ""
+msgstr "Розділи"
 
 #: ../meta_plugins/plugin_partnerbox.xml
 msgid "Partnerbox allows editing a remote Dreambox's record timers and stream its TV  program."
@@ -8605,7 +8603,7 @@ msgstr "Перегляд зображень"
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/SystemPlugins/MiniDLNASetup/plugin.py:266
 msgid "Pictures"
-msgstr ""
+msgstr "зображення"
 
 #. TRANSLATORS: (aspect ratio policy: black bars on left/right) in doubt, keep english term.
 #: ../enigma2-rel3.2/lib/python/Components/AVSwitch.py:104
@@ -10498,7 +10496,7 @@ msgstr "Супутник"
 #: ../enigma2-rel3.2/data/skin_default.xml
 #: ../enigma2_3.999git20140219/usr/share/enigma2/skin_default.xml
 msgid "Satellite Blindscan"
-msgstr ""
+msgstr "Сліпий Пошук"
 
 #: ../enigma2-rel3.2/lib/python/Plugins/SystemPlugins/SatelliteEquipmentControl/plugin.py:71
 #: ../enigma2-rel3.2/lib/python/Plugins/SystemPlugins/SatelliteEquipmentControl/plugin.py:77
@@ -14507,7 +14505,6 @@ msgstr ""
 
 #: ../enigma2-rel3.2/data/startwizard.xml
 #: ../enigma2_3.999git20140219/usr/share/enigma2/startwizard.xml
-#, fuzzy
 msgid ""
 "Welcome.\n"
 "\n"
@@ -15426,7 +15423,6 @@ msgid "advanced"
 msgstr "розширений"
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Components/UsageConfig.py:142
-#, fuzzy
 msgid "ahead"
 msgstr "перед"
 
@@ -15524,9 +15520,8 @@ msgid "backgroundcolor"
 msgstr "колір фону"
 
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Components/UsageConfig.py:142
-#, fuzzy
 msgid "behind"
-msgstr "за"
+msgstr "позаду"
 
 #: ../enigma2-rel3.2/lib/python/Plugins/Extensions/PicturePlayer/plugin.py:23
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Plugins/Extensions/PicturePlayer/plugin.py:23
@@ -17283,4 +17278,3 @@ msgstr "переключити"
 #: ../enigma2_3.999git20140219/usr/lib/enigma2/python/Components/TimerList.py:58
 msgid "zapped"
 msgstr "Переключений"
-
